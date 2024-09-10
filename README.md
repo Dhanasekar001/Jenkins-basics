@@ -11,6 +11,7 @@ docker logs jenkins-blueocean
 
 alpine/socat container to forward traffic from Jenkins to Docker Desktop on Host Machine:
 https://stackoverflow.com/questions/47709208/how-to-find-docker-host-uri-to-be-used-in-jenkins-docker-plugin
+
 Command1: docker run -d --restart=always \
     -p 127.0.0.1:2376:2375 \
     -v //var/run/docker.sock:/var/run/docker.sock \
